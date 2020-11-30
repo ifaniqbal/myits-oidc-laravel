@@ -2,6 +2,7 @@
     "name": "ifaniqbal/myits-oidc-laravel",
     "description": "Laravel wrapper for myits/openid-connect-client",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ifan Iqbal",
