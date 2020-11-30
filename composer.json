@@ -1,0 +1,33 @@
+{
+    "name": "ifaniqbal/myits-oidc-laravel",
+    "description": "Laravel wrapper for myits/openid-connect-client",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ifan Iqbal",
+            "email": "ifaniqbal.com@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "myits/openid-connect-client": "~1.4.1",
+        "illuminate/contracts": "5.1.* || 5.5.* || ^6",
+        "illuminate/support": "5.1.* || 5.5.* || ^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ifaniqbal\\MyitsOidc\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ifaniqbal\\MyitsOidc\\MyitsOidcServiceProvider"
+            ],
+            "aliases": {
+                "MyitsOidc": "Ifaniqbal\\MyitsOidc\\Facades\\MyitsOidc"
+            }
+        }
+    }
+}
