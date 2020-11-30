@@ -15,10 +15,11 @@ class MyitsOidcServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/myits-oidc.php', 'myits-oidc'
+            __DIR__.'/../config/myits-oidc.php',
+            'myits-oidc'
         );
 
-        $this->app->bind('myits-oidc', function(){
+        $this->app->bind('myits-oidc', function () {
             return new MyitsOidc();
         });
     }
