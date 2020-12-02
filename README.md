@@ -1,6 +1,6 @@
 # Laravel wrapper for MyITS OpenID Connect
 
-The purpose of this package is to simplify the implementation of MyITS SSO on the Laravel project. Currently support Laravel 5.1 (todo: 5.5 & 6.x).
+The purpose of this package is to simplify the implementation of MyITS SSO on the Laravel project. Currently support Laravel 5.1, 5.5 and 6.x.
 
 ## Installation
 
